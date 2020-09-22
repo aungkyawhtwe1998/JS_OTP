@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8 bg-primary text-white">
+                <label>Enter Phone No.</label>
+                <input class="form-control mb-5" id="number" type="text" placeholder="Phone Number"/>
+                <button onclick="getOTP(10, {alphbets:false, specialChars:false});" class="btn btn-info mb-3 d-block mx-auto" type="button">Get Otp</button>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <h1 id="result">Result</h1>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
